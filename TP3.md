@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TP3</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__html"><h1 id="tp-3">TP 3</h1>
+---
+
+<h1 id="tp-3">TP 3</h1>
 <h2 id="exercice-1">Exercice 1</h2>
 <ol start="4">
 <li>Afficher les membres de infra :</li>
@@ -79,7 +73,4 @@ sudo chage -E 30 dave
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
-</div>
-</body>
 
-</html>
