@@ -62,7 +62,8 @@
 </li>
 <li>
 <p><strong>cut</strong> : coupe chaque ligne de la sortie (selon nombre, séparateur…)<br>
-💡 Afficher les 5 premières colonne d’un fichier : <code>cut -d' ' -f1-5 nom_du_fichier</code></p>
+💡 Afficher les 5 premières colonne d’un fichier : <code>cut -d' ' -f1-5 nom_du_fichier</code><br>
+💡 Afficher une colonne d’un fichier : <code>cut -d: -f1 nom_du_fichier</code></p>
 </li>
 <li>
 <p><strong>grep</strong> : recherche d’une expression dans un fichier<br>
@@ -90,7 +91,8 @@
 <li><strong>&gt;&gt;</strong> : Redirige la sortie à la <em>fin d’un fichier</em></li>
 <li><strong>2&gt; ou 2&gt;&gt;</strong> : Redirige les erreurs dans un fichier<br>
 💡 Exemple : <code>cat ppaer 2&gt; erreur.txt</code> // no such file or directory</li>
-<li><strong>- 2&gt;&amp;1</strong> : Redirige erreurs / sortie standard dans un meme fichier</li>
+<li><strong>- 2&gt;&amp;1</strong> : Redirige erreurs / sortie standard dans un meme fichier<br>
+💡 Exemple : <code>commande &gt; /dev/null 2&gt;&amp;1</code></li>
 <li><strong>&lt;</strong> : prend un fichier en entrée<br>
 💡 Exemple : <code>tr a-z A-Z &lt; fichier</code> -&gt; converti en majuscule</li>
 <li>Rediriger la sortie <strong>standard</strong> vers un fichier et la sortie <strong>d’erreur</strong> vers un autre fichier<br>
