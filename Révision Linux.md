@@ -15,6 +15,7 @@
 <li>Infos brève d’une commande : <code>head --help</code></li>
 <li>Infos très brève d’une commande : <code>whatis head</code></li>
 <li>Rappeler la dernière commande : <code>!!</code></li>
+<li>Rechercher le chemin d’une commande : <code>which commande</code></li>
 <li><strong>FHS</strong> = <em>Filesystem Hierarchy Standard</em></li>
 </ul>
 <hr>
@@ -41,6 +42,21 @@
 <ul>
 <li>
 <p><strong>cat -n</strong> : affiche un fichier avec les numéros de lignes</p>
+</li>
+<li>
+<p><strong>tac :</strong> affiche un fichier dans le sens inverse</p>
+</li>
+<li>
+<p><strong>nl :</strong> affiche un fichier avec les lignes</p>
+</li>
+<li>
+<p><strong>join :</strong> fusionner un fichier <em>ligne par ligne</em></p>
+</li>
+<li>
+<p><strong>sort :</strong> permet de trier un fichier</p>
+</li>
+<li>
+<p><strong>tree :</strong> permet de lister l’arborescence</p>
 </li>
 <li>
 <p><strong>head -n</strong> : affiche les n <em>premières lignes</em></p>
@@ -128,5 +144,4 @@
 <li>Modifer et décommenter la ligne suivante : <code>force_color_prompt=yes</code></li>
 <li>Recharger le fichier avec la commande : <code>source .bashrc</code></li>
 </ol>
-<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 
